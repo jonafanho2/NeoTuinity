@@ -24,3 +24,6 @@ index 83870d54a5ff1017ad7455e9c931fdee54354434..d6607c1cc3b976367f0087810de69828
          /**
           * Sends the component to the player
           *
+            * @param player Player to send the component to
+          * @param component Component to send
+          */
