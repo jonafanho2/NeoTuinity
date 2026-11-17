@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        java: [ 17 ] # Updated from EOL Java 16; change to 21 if targeting newer Minecraft versions
+        java: [ 17 ]
       fail-fast: true
 
     steps:
@@ -43,5 +43,3 @@ jobs:
         with:
           name: Tuinity
           path: tuinity-paperclip.jar
-
-          
