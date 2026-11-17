@@ -7,19 +7,21 @@ jobs:
     # Only run on PRs if the source branch is on someone else's repo
     if: ${{ github.event_name != 'pull_request' || github.repository != github.event.pull_request.head.repo.full_name }}
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        java: [ 27 ]
-      fail-fast: true
 
     steps:
       - name: Checkout Git Repository
         uses: actions/checkout@v7
 
-      - name: Set up JDK
+      - name: Set up JDK 21 (Gradle Runtime)
         uses: actions/setup-java@v6
         with:
-          java-version: ${{ matrix.java }}
+          java-version: '21'
+          distribution: 'temurin'
+
+      - name: Set up JDK 27 (Toolchain)
+        uses: actions/setup-java@v6
+        with:
+          java-version: '27'
           distribution: 'temurin'
 
       - name: Setup Gradle
@@ -27,7 +29,7 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.email "41898282+github-actions[bot]@://github.com"
           git config --global user.name "github-actions[bot]"
 
       - name: Patch Tuinity
