@@ -16,12 +16,12 @@ jobs:
       - name: Checkout Git Repository
         uses: actions/checkout@v4
 
-      - name: Set up JDK 16
-        uses: actions/setup-java@v4
+      - name: Set up JDK 27
+        uses: actions/setup-java@v5
         with:
-          java-version: '16'
+          java-version: '27'
           distribution: temurin
-      
+          
       - name: Checkout Git Repository
         uses: actions/checkout@v5
 
