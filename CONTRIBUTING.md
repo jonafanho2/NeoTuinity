@@ -1,8 +1,8 @@
 # TODO
 
 ## High Priority
-- [ ] Core task description (@username) #tag
-  - [ ] Indented subtask
+- [ x ] Core task description (@username) #tag
+  - [ x ] Indented subtask
 
 ## In Progress
 - [-] Task currently being worked on
