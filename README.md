@@ -13,9 +13,9 @@
 </div>
 
 ## How To (Server Admins)
-Tuinity uses the same paperclip jar system that Paper uses.
+NeoTuinity uses the same paperclip jar system that Paper and Tunity(This is made for Modern versions) uses.
 
-You can download the latest build (1.17.x) of Tuinity by going [here](https://ci.codemc.io/job/Spottedleaf/job/Tuinity-1.17/)
+You can download the latest build (26.x) of Tuinity by going [here](https://ci.codemc.io/job/Spottedleaf/job/Tuinity-1.17/)
 
 You can also [build it yourself](https://github.com/Tuinity/Tuinity#building).
 
