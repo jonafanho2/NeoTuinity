@@ -17,7 +17,7 @@ NeoTuinity uses the same paperclip jar system that Paper and Tunity(This is made
 
 You can download the latest build (26.x) of Tuinity by going [here](https://ci.codemc.io/job/Spottedleaf/job/Tuinity-1.17/)
 
-You can also [build it yourself](https://github.com/jonafanho2/NeoTuinity/Tuinity#building).
+You can also [build it yourself](https://github.com/jonafanho2/NeoTuinity).
 
 ## How To (Plugin developers)
 In order to use Tuinity as a dependency you must [build it yourself](https://github.com/Tuinity/Tuinity#building).
